@@ -1,0 +1,159 @@
+$primary-color: #202124;
+
+%headerImg {
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+}
+.app {
+  transition: 0.5s;
+  display: grid;
+  grid-template-columns: 400px auto;
+}
+
+.appHidden {
+  transition: 0.5s;
+  display: grid;
+  grid-template-columns: 0 auto;
+}
+
+.sidebarHidden {
+  transition: 0.5s;
+  position: relative;
+  margin-left: -400px;
+}
+.sidebar {
+  transition: 0.5s;
+  position: relative;
+}
+
+.chat {
+  display: flex;
+  flex-direction: column;
+  color: $primary-color;
+  width: 100%;
+  height: 100vh;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 40px;
+  width: 100%;
+  height: 80px;
+  background-color: #fff;
+
+  .arrow {
+    @extend %headerImg;
+    transition: 0.5s;
+  }
+  .arrow:hover {
+    transform: scale(0.8);
+  }
+
+  .arrowRotate {
+    @extend %headerImg;
+    transition: 0.5s;
+    transform: rotate(180deg);
+  }
+  .arrowRotate:hover {
+    transform: scale(0.8) rotate(180deg);
+  }
+
+  .setting {
+    @extend %headerImg;
+    transition: 0.5s;
+  }
+  .setting:hover {
+    transform: scale(0.8) rotate(360deg);
+  }
+}
+
+.userInfo {
+  text-align: center;
+  .userName {
+    font-size: 28px;
+    height: 33px;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+
+  .userName:hover {
+    transform: scale(0.9);
+    transition: 0.5s;
+  }
+  .userDescription {
+    font-size: 14px;
+    font-weight: 300;
+  }
+  .lastActive {
+    font-size: 12px;
+    font-weight: 500;
+  }
+}
+
+.chatBox {
+  height: calc(100vh - 80px - 80px);
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
+  padding: 15px 35px 0px 40px;
+  background-color: #f0f2f5;
+}
+.chatBox::-webkit-scrollbar {
+  width: 5px;
+}
+
+.chatBox::-webkit-scrollbar-track {
+  border-radius: 5px;
+  background-color: #e7e7e7;
+  border: 1px solid $primary-color;
+}
+
+.chatBox::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  border-radius: 5px;
+  background-color: $primary-color;
+}
+
+.dateCommunication {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  width: 100%;
+
+  p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 50px;
+    width: 100px;
+    font-size: 17px;
+    font-weight: 300;
+    height: 40px;
+  }
+}
+
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.noMessages {
+  padding: 0 20px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  width: 400px;
+  height: 100px;
+  border-radius: 30px;
+}

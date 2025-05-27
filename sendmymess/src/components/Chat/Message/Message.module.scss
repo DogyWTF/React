@@ -1,0 +1,61 @@
+$primary-color: #202124;
+
+%time {
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 300;
+  margin: 0 5px 0 3px;
+}
+
+%message {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  max-width: 36%;
+}
+
+.checked {
+  width: 15px;
+  height: 15px;
+}
+
+.notChecked {
+  width: 15px;
+  height: 15px;
+  display: none;
+}
+
+.myMessage {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  margin-top: 15px;
+
+  p {
+    @extend %time;
+  }
+
+  .myMessageText {
+    @extend %message;
+    background-color: $primary-color;
+    color: #fff;
+    border-radius: 30px 30px 5px 30px;
+  }
+}
+
+.thyMessage {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  margin-top: 15px;
+
+  p {
+    @extend %time;
+  }
+
+  .thyMessageText {
+    @extend %message;
+    background-color: #fff;
+    border-radius: 30px 30px 30px 5px;
+  }
+}

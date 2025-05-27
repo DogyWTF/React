@@ -1,0 +1,197 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Username 1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eleifend pretium blandit. Pellentesque sit amet turpis massa. Sed blandit nulla in justo aliquam, a ultricies mi tristique. Quisque egestas nibh in ante bibendum ullamcorper. Aliquam non magna nisi. Nulla fermentum fermentum e",
+      "lastMsg": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eleifend pretium blandit. Pellentesque sit amet turpis massa. Sed blandit nulla in justo aliquam, a ultricies mi tristique. Quisque egestas nibh in ante bibendum ullamcorper. Aliquam non magna nisi. Nulla fermentum fermentum ex, a condimentum lorem fermentum id. Fusce molestie condimentum enim, ac suscipit orci mattis quis. Vestibulum ut ullamcorper nisi, at iaculis nulla. Fusce consequat purus et libero posuere condimentum. Nunc varius aliquam odio, quis luctus sapien hendrerit vitae. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget molestie quam. Ut est nisi, tristique quis consequat quis, fringilla id urna.",
+      "avatar": "",
+      "isOnline": false,
+      "unread": 3123,
+      "description": "My name Username 1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eleifend pretium blandit. Pellentesque sit amet turpis massa. Sed blandit nulla in justo aliquam, a ultricies mi tristique. Quisque egestas nibh in ante bibendum ullamcorper. Aliquam non magna nisi. Nulla fermentum fermentum ex, a condimentum lorem fermentum id. Fusce molestie condimentum enim, ac suscipit orci mattis quis. Vestibulum ut ullamcorper nisi, at iaculis nulla. Fusce consequat purus et libero posuere condimentum. Nunc varius aliquam odio, quis luctus sapien hendrerit vitae. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget molestie quam. Ut est nisi, tristique quis consequat quis, fringilla id urna.",
+      "lastActive": 1690287545
+    },
+    {
+      "id": 2,
+      "name": "Username 2",
+      "lastMsg": "",
+      "avatar": "",
+      "isOnline": true,
+      "unread": 7,
+      "description": "My name Username 2",
+      "lastActive": 1690287545
+    },
+    {
+      "id": 3,
+      "name": "Username 3",
+      "lastMsg": "",
+      "avatar": "",
+      "isOnline": false,
+      "unread": 15,
+      "description": "My name Username 3",
+      "lastActive": 1690287545
+    },
+    {
+      "id": 4,
+      "name": "Username 4",
+      "lastMsg": "",
+      "avatar": "",
+      "isOnline": false,
+      "unread": 0,
+      "description": "My name Username 4",
+      "lastActive": 1690287545
+    },
+    {
+      "id": 5,
+      "name": "Username 5",
+      "lastMsg": "",
+      "avatar": "",
+      "isOnline": false,
+      "unread": 0,
+      "description": "My name Username 5",
+      "lastActive": 1690287545
+    },
+    {
+      "id": 6,
+      "name": "Username 6",
+      "lastMsg": "",
+      "avatar": "",
+      "isOnline": false,
+      "unread": 0,
+      "description": "My name Username 6",
+      "lastActive": 1690287545
+    },
+    {
+      "id": 7,
+      "name": "Username 7",
+      "lastMsg": "",
+      "avatar": "",
+      "isOnline": false,
+      "unread": 0,
+      "description": "My name Username 7",
+      "lastActive": 1690287545
+    },
+    {
+      "id": 8,
+      "name": "Username 8",
+      "lastMsg": "",
+      "avatar": "",
+      "isOnline": false,
+      "unread": 0,
+      "description": "My name Username 8",
+      "lastActive": 1690287545
+    },
+    {
+      "id": 9,
+      "name": "Username 9",
+      "lastMsg": "",
+      "avatar": "",
+      "isOnline": false,
+      "unread": 0,
+      "description": "My name Username 9",
+      "lastActive": 1690287545
+    },
+    {
+      "id": 10,
+      "name": "Username 10",
+      "lastMsg": "",
+      "avatar": "",
+      "isOnline": false,
+      "unread": 0,
+      "description": "My name Username 10",
+      "lastActive": 1690287545
+    },
+    {
+      "id": 11,
+      "name": "Username 11",
+      "lastMsg": "",
+      "avatar": "",
+      "isOnline": false,
+      "unread": 0,
+      "description": "My name Username 11",
+      "lastActive": 1690287545
+    },
+    {
+      "id": 12,
+      "name": "Username 12",
+      "lastMsg": "",
+      "avatar": "",
+      "isOnline": false,
+      "unread": 0,
+      "description": "My name Username 12",
+      "lastActive": 1690287545
+    }
+  ],
+  "messages": [
+    {
+      "id": 1,
+      "allMessages": [
+        {
+          "isMyMsg": true,
+          "msg": "Hi my friend.",
+          "time": 1690186800,
+          "read": true,
+          "id": 1
+        },
+        {
+          "isMyMsg": true,
+          "msg": "Do you like the new messenger?",
+          "time": 1690186845,
+          "read": true,
+          "id": 2
+        },
+        {
+          "isMyMsg": true,
+          "msg": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure commodi voluptas vel cum esse qui labore. Dolorum voluptatem quod nostrum, quaerat beatae iure esse molestias quasi deleniti, vero sapiente obcaecati.",
+          "time": 1690187760,
+          "read": true,
+          "id": 3
+        },
+        {
+          "dateCommunication": 1690287540
+        },
+        {
+          "isMyMsg": false,
+          "msg": "Hello my dear friend. How are you? Maybe you need help?",
+          "time": 1690287540,
+          "read": false,
+          "id": 4
+        },
+        {
+          "isMyMsg": true,
+          "msg": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eleifend pretium blandit. Pellentesque sit amet turpis massa. Sed blandit nulla in justo aliquam, a ultricies mi tristique. Quisque egestas nibh in ante bibendum ullamcorper. Aliquam non magna nisi. Nulla fermentum fermentum ex, a condimentum lorem fermentum id. Fusce molestie condimentum enim, ac suscipit orci mattis quis. Vestibulum ut ullamcorper nisi, at iaculis nulla. Fusce consequat purus et libero posuere condimentum. Nunc varius aliquam odio, quis luctus sapien hendrerit vitae. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget molestie quam. Ut est nisi, tristique quis consequat quis, fringilla id urna.",
+          "time": 1690287540,
+          "read": true,
+          "id": 5
+        },
+        {
+          "isMyMsg": true,
+          "msg": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eleifend pretium blandit. Pellentesque sit amet turpis massa. Sed blandit nulla in justo aliquam, a ultricies mi tristique. Quisque egestas nibh in ante bibendum ullamcorper. Aliquam non magna nisi. Nulla fermentum fermentum ex, a condimentum lorem fermentum id. Fusce molestie condimentum enim, ac suscipit orci mattis quis. Vestibulum ut ullamcorper nisi, at iaculis nulla. Fusce consequat purus et libero posuere condimentum. Nunc varius aliquam odio, quis luctus sapien hendrerit vitae. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget molestie quam. Ut est nisi, tristique quis consequat quis, fringilla id urna.",
+          "time": 1690287540,
+          "read": true,
+          "id": 6
+        },
+        {
+          "isMyMsg": true,
+          "msg": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eleifend pretium blandit. Pellentesque sit amet turpis massa. Sed blandit nulla in justo aliquam, a ultricies mi tristique. Quisque egestas nibh in ante bibendum ullamcorper. Aliquam non magna nisi. Nulla fermentum fermentum ex, a condimentum lorem fermentum id. Fusce molestie condimentum enim, ac suscipit orci mattis quis. Vestibulum ut ullamcorper nisi, at iaculis nulla. Fusce consequat purus et libero posuere condimentum. Nunc varius aliquam odio, quis luctus sapien hendrerit vitae. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget molestie quam. Ut est nisi, tristique quis consequat quis, fringilla id urna.",
+          "time": 1690287540,
+          "read": true,
+          "id": 7
+        },
+        {
+          "isMyMsg": true,
+          "msg": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eleifend pretium blandit. Pellentesque sit amet turpis massa. Sed blandit nulla in justo aliquam, a ultricies mi tristique. Quisque egestas nibh in ante bibendum ullamcorper. Aliquam non magna nisi. Nulla fermentum fermentum ex, a condimentum lorem fermentum id. Fusce molestie condimentum enim, ac suscipit orci mattis quis. Vestibulum ut ullamcorper nisi, at iaculis nulla. Fusce consequat purus et libero posuere condimentum. Nunc varius aliquam odio, quis luctus sapien hendrerit vitae. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget molestie quam. Ut est nisi, tristique quis consequat quis, fringilla id urna.",
+          "time": 1690287540,
+          "read": true,
+          "id": 8
+        },
+        {
+          "isMyMsg": true,
+          "msg": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eleifend pretium blandit. Pellentesque sit amet turpis massa. Sed blandit nulla in justo aliquam, a ultricies mi tristique. Quisque egestas nibh in ante bibendum ullamcorper. Aliquam non magna nisi. Nulla fermentum fermentum ex, a condimentum lorem fermentum id. Fusce molestie condimentum enim, ac suscipit orci mattis quis. Vestibulum ut ullamcorper nisi, at iaculis nulla. Fusce consequat purus et libero posuere condimentum. Nunc varius aliquam odio, quis luctus sapien hendrerit vitae. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget molestie quam. Ut est nisi, tristique quis consequat quis, fringilla id urna.",
+          "time": 1690287540,
+          "read": true,
+          "id": 9
+        }
+      ]
+    }
+  ]
+}

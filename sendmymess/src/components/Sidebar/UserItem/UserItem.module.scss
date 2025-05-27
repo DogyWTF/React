@@ -1,0 +1,75 @@
+$primary-color: #202124;
+
+%user {
+  position: relative;
+  transition: 0.5s;
+  cursor: pointer;
+  background-color: $primary-color;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  height: 85px;
+  border-radius: 10px;
+  padding: 18px 8px;
+
+  .userTextActive {
+    display: flex;
+    align-items: center;
+
+    .userOnline {
+      display: block;
+      width: 8px;
+      height: 8px;
+      background-color: #fff;
+      border-radius: 10px;
+      margin-left: 5px;
+    }
+
+    .userUnread {
+      display: block;
+      margin-left: 4px;
+      padding: 1px 3px;
+      font-size: 10px;
+      border-radius: 30px;
+      border: 1px solid #ffffff;
+    }
+  }
+
+  img {
+    width: 50px;
+    margin-right: 12px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+}
+
+.userActive {
+  @extend %user;
+}
+
+.userActive:hover {
+  transition: 0.5s;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.userNotActive {
+  @extend %user;
+  background-color: #fff;
+  color: $primary-color;
+
+  .userTextActive {
+    .userOnline {
+      background-color: $primary-color;
+    }
+    .userUnread {
+      border: 1px solid #000000;
+    }
+  }
+}
+
+.userNotActive:hover {
+  transition: 0.5s;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}

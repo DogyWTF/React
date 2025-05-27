@@ -1,0 +1,5 @@
+{
+  "/api/messages": "/messages",
+  "/api/messages/:id": "/messages/:id",
+  "/api/messages/:id/allMessages": "/messages/:id/allMessages"
+}
