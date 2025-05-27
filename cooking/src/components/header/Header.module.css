@@ -1,0 +1,15 @@
+.header {
+    display: flex;
+    justify-content: end;
+    padding: 10px 10px 5px;
+}
+
+.header > span {
+    font-size: 12px;
+    background-color: #28b8bd;
+    border-radius:  10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px 5px
+}
